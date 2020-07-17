@@ -11,7 +11,7 @@ function feetToMile(feet){
     else
     {
         var mile =feet/5280;
-        return mile.toFixed(5);
+        return parseFloat(mile.toFixed(5));
     }
 }
 
