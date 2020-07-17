@@ -24,7 +24,7 @@ function woodCalculator(chair,table,bed)
         }
         else if(chair<0 || table<0 || bed<0)
         {
-            return "Cahir,Table or Bed can not be negative value!"
+            return "Chair,Table or Bed can not be negative value!"
         }
         else
         {
