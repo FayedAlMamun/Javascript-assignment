@@ -2,7 +2,7 @@
 function feetToMile(feet){
     if (typeof(feet)!=typeof(1))
     {
-        return "You did not type any number!" ;
+        return "You did not type any number!";
     }   
     else if (feet<0)
     {
@@ -20,11 +20,11 @@ function feetToMile(feet){
 function woodCalculator(chair,table,bed)
     {   if(typeof(chair)!=typeof(1) || typeof(table)!=typeof(1)|| typeof(bed)!=typeof(1))
         {
-            return "All the argument must be in number type!"
+            return "All the argument must be in number type!";
         }
         else if(chair<0 || table<0 || bed<0)
         {
-            return "Chair,Table or Bed can not be negative value!"
+            return "Chair,Table or Bed can not be negative value!";
         }
         else
         {
@@ -42,11 +42,11 @@ function brickCalculator(howManyFloors)
 {
     if(typeof(howManyFloors)!=typeof(1))
     {
-        return "You did not type any number!"
+        return "You did not type any number!";
     }
     else if(howManyFloors<0)
     {
-        return "Number of floor can not be negative!"
+        return "Number of floor can not be negative!";
     }
     else
     { if(howManyFloors<=10)
@@ -75,7 +75,7 @@ function tinyFriend(names)
     for(var i=0;i<names.length;i++)
     {   if(typeof(names[i])!=typeof("a"))
         {
-            return "Please Type Names!"
+            return "Please Type Names!";
         }
         else
         {
